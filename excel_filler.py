@@ -8,8 +8,25 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 C8_C12 = [
-    "¿El paciente tiene antecedentes médicos relevantes?",
-    "¿El paciente consume sustancias psicoactivas?",
+     f: if p => 18 i 30:    
+        swith case:
+        if p in range (18 -30): { 
+            if opht == 0 (
+                C8 = 0,
+                else 1
+            )
+            if dent == 0 (
+                C8 = 0,
+                else 1
+            )
+            if blood == 0 (
+                C8 = 0,
+                else 1
+            )
+
+
+    
+    "¿El paciente consume sustancias psicoactivas o tabaco?",
     "¿El paciente realiza actividad física regularmente?",
     "¿El paciente tiene un entorno familiar estable?",
     "¿El paciente duerme al menos 6 horas por noche?"
